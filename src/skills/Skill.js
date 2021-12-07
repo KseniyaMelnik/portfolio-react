@@ -8,7 +8,7 @@ function Skill() {
                 <div className={style.skillIcon}></div>
                 <h2>React</h2>
             </div>
-            <div className={style.skillDescription}>
+            <div className={style.skillDescription}>"
                 <span>Подробное описание навыка</span>
             </div>
         </div>
