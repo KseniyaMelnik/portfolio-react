@@ -1,17 +1,16 @@
 import React from "react";
 import style from './Remote.module.css';
+import styleContainer from "../common/style.module.css";
 
 function Remote() {
     return (
-        <div className={style.remoteBlock}>
-        <div className={style.container}>
-            <div className={style.text}>
-                <span>Рассматриваю варианты удаленной работы</span>
+        <div className={style.block}>
+            <div className={`${styleContainer.container} ${style.container}`}>
+                <h2 className={style.title}>Рассматриваю варианты удаленной работы</h2>
+                <div className={style.buttonContainer}>
+                    <button className={style.button}>hire me</button>
+                </div>
             </div>
-            <div className={style.buttonContainer}>
-                <button className={style.button}>hire me</button>
-            </div>
-        </div>
         </div>
     );
 }
