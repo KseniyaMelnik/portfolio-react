@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <Title />
+                <Title text={"My projects"}/>
                 <div className={style.projects}>
                     <Project/>
                     <Project/>

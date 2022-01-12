@@ -2,10 +2,10 @@ import React from "react";
 import style from './Title.module.css';
 
 
-function Title() {
+function Title(props) {
     return (
         <div className={style.title}>
-            <h2>My projects</h2>
+            <h2>{props.text}</h2>
         </div>
 
     );
