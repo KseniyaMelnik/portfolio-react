@@ -12,7 +12,7 @@ function Project() {
                 </div>
             </div>
             <div className={style.text}>
-                <h3 className={style.title}>Project title</h3>
+                <h3 className={style.projectTitle}>Project title</h3>
                 <div className={style.description}>Description</div>
             </div>
         </div>
