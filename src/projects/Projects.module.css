@@ -1,18 +1,21 @@
 .block {
-    min-height: 100vh;
     background-color: #191c26;
+    padding: 100px 0;
 }
 
 .container {
     flex-direction: column;
     justify-content: center;
 }
+.title {
+    margin-bottom: 25px;
+}
 .title h2 {
     font-size: 45px;
     font-weight: 800;
-    margin-bottom: 25px;
+    margin: 0;
     line-height: 1;
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
