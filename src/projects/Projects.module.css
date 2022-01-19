@@ -15,44 +15,75 @@
 .projects {
     margin-top: 30px;
     width: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .project {
-    background-color: white;
+    border-radius: 6px;
     width: 500px;
-    border: 1px solid;
 }
 
 .image {
     background-color: darkgrey;
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    opacity: 0.4;
+
 }
 
 .btn {
     background-color: azure;
     padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 
-.text {
+.projectInfo {
+    background-color: #111319;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 25px 20px;
+
 }
 .projectTitle {
-
+    font-family: "poppins";
+    color: #fff;
+    line-height: 1.2;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 
 .description {
-    background-color: #fafabc;
+    color: #a9afc3;
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 1252px) {
