@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Remote.module.css';
-import styleContainer from "../common/style.module.css";
+import styleContainer from "../common/styles/style.module.css";
 
 function Remote() {
     return (
