@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Remote.module.css';
+import style from './Remote.module.scss';
 import styleContainer from "../common/styles/style.module.css";
 
 function Remote() {

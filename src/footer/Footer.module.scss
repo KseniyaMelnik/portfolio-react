@@ -1,6 +1,8 @@
+@import './../common/styles/sass/variables';
+
 .footer {
     height: 35vh;
-    background-color: lightskyblue;
+    background-color: $bgColor;
     display: flex;
     align-items: center;
 }

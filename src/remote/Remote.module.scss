@@ -1,0 +1,28 @@
+@import './../common/styles/sass/variables';
+
+.block {
+    min-height: 30vh;
+    background-color: $bgColor;
+    .container {
+        flex-direction: column;
+        .title {
+            text-align: center;
+            background-color: #e7e6e6;
+        }
+        .buttonContainer {
+            .button {
+                text-transform: uppercase;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

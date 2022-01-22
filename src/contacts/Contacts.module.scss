@@ -1,0 +1,30 @@
+@import './../common/styles/sass/variables';
+
+.contactsBlock {
+    height: 100vh;
+    background-color: $bgSecondColor;
+    display: flex;
+    .container {
+        height: 70%;
+        width: 80%;
+        align-self: center;
+        flex-direction: column;
+        border: 1px solid;
+        .form {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    .buttonContainer {
+        .button {
+            text-transform: uppercase;
+            padding: 10px 20px;
+        }
+    }
+}
+
+
+
+
