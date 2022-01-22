@@ -1,0 +1,40 @@
+@import './../common/styles/sass/variables';
+
+.block {
+    background-color: $bgColor;
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        .skills {
+            width: 100%;
+            border: 1px solid;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+.skill {
+    background-color: white;
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    .card {
+        .icon {
+            background-color: #c0bebe;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+        }
+        .description {
+            text-align: center;
+        }
+    }
+}
+
+

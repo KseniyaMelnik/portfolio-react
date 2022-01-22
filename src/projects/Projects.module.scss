@@ -1,15 +1,16 @@
 @import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
 
 .block {
   background-color: $bgSecondColor;
-  padding: 100px 0;
 
   .container {
     flex-direction: column;
     justify-content: center;
+    padding: 100px 0;
+
 
     .projects {
-      margin-top: 30px;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -22,7 +23,6 @@
   }
 
 }
-
 
 .project {
   border-radius: 6px;
@@ -70,22 +70,14 @@
     padding: 25px 20px;
 
     .projectTitle {
-      font-family: "poppins";
-      color: $titleColor;
-      line-height: 1.2;
+      @include text(22px, 1.2, 700, $titleColor);
       text-decoration: none;
-      font-size: 22px;
-      font-weight: 700;
     }
 
     .description {
-      color: $textColor;
-      font-family: "Poppins";
-      font-size: 18px;
-      line-height: 30px;
+      @include text ();
       letter-spacing: 0;
       word-wrap: break-word;
-      font-weight: 400;
     }
   }
 }
