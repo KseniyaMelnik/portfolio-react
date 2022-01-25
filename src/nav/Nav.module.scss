@@ -1,0 +1,13 @@
+@import './../common/styles/sass/mixins';
+
+.nav {
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        @include text(17px, 1.0, 400, $textColor);
+
+    }
+}
