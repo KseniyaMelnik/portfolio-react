@@ -1,4 +1,6 @@
 @import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
 
 .block {
     background-color: $bgColor;
@@ -7,7 +9,6 @@
         justify-content: center;
         .skills {
             width: 100%;
-            border: 1px solid;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -17,8 +18,8 @@
 
 
 .skill {
-    background-color: white;
-    border: 1px solid;
+    background-color: $bgSecondColor;
+    border-radius: 5px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -26,14 +27,21 @@
     padding: 20px;
     .card {
         .icon {
-            background-color: #c0bebe;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
             width: 80px;
             height: 80px;
             margin: 0 auto;
         }
-        .description {
-            text-align: center;
+        .skillTitle {
+            @include text(22px, 1.2, 400, $titleColor);
         }
+
+    }
+    .description {
+        text-align: center;
+        @include text(18px, 1.2, 400, $textColor);
     }
 }
 
