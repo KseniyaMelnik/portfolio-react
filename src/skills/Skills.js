@@ -27,7 +27,7 @@ function Skills() {
                 <div className={style.skills}>
                     <Skill style = {jsStyle} title='JS' description={"Здесь будет описание навыка"}/>
                     <Skill style = {cssStyle} title='CSS' description={"Здесь будет описание навыка"}/>
-                    <Skill style = {reactStyle} ztitle='REACT' description={"Здесь будет описание навыка"}/>
+                    <Skill style = {reactStyle} title='REACT' description={"Здесь будет описание навыка"}/>
                 </div>
             </div>
         </div>
