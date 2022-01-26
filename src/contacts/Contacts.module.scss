@@ -1,7 +1,7 @@
 @import './../common/styles/sass/variables';
 
 .contactsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: $bgSecondColor;
     display: flex;
     .container {
@@ -10,19 +10,51 @@
         align-self: center;
         flex-direction: column;
         border: 1px solid;
-        .form {
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+        .formContainer {
+            padding: 20px 10px;
+            background-color: $bgColor;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            height: auto;
+            .form {
+                width: 500px;
+                @media screen and (max-width: 655px) {
+                    width: 400px;
+                }
+                @media screen and (max-width: 527px) {
+                    width: 300px;
+                }
+                @media screen and (max-width: 405px) {
+                    width: 265px;
+                }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: $bgColor;
+                input, textarea {
+                    background-color: $bgColor;
+                    border: none;
+                    border-bottom: $textColor 1px solid;
+                    outline: none;
+                    color: $textColor;
+                    resize: none;
+                    padding-top: 50px;
+                }
+            }
+            .buttonContainer {
+                .button {
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    background-color: $textColor;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+            }
         }
     }
-    .buttonContainer {
-        .button {
-            text-transform: uppercase;
-            padding: 10px 20px;
-        }
-    }
+
 }
 
 

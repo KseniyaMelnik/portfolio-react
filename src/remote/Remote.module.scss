@@ -1,4 +1,6 @@
 @import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
 
 .block {
     min-height: 30vh;
@@ -7,12 +9,17 @@
         flex-direction: column;
         .title {
             text-align: center;
-            background-color: #e7e6e6;
+            @include text(30px, 1.4, 700, $titleColor);
         }
         .buttonContainer {
             .button {
                 text-transform: uppercase;
+                @include text(20px, 1.4, 400, $textColor);
                 padding: 10px 20px;
+                background-color: $primaryColor;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
             }
         }
     }

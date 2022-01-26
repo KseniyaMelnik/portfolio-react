@@ -6,7 +6,7 @@ function Remote() {
     return (
         <div className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2 className={style.title}>Рассматриваю варианты удаленной работы</h2>
+                <h2 className={style.title}>I am available for freelance</h2>
                 <div className={style.buttonContainer}>
                     <button className={style.button}>hire me</button>
                 </div>
