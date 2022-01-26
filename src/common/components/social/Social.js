@@ -4,7 +4,7 @@ import style from './Social.module.scss';
 
 function Social(props) {
     return (
-        <div style = {props.style} className={style.social}></div>
+        <a href={props.link}><div style = {props.style} className={style.social}></div></a>
 
     );
 }

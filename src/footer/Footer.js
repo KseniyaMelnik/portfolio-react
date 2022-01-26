@@ -13,15 +13,20 @@ function Footer() {
     const codewarsStyle = {
         backgroundImage: `url(${codewars})`,
     };
+    const codewarsLink = 'https://www.codewars.com/users/KseniyaMelnik'
+
     const githubStyle = {
         backgroundImage: `url(${github})`,
     };
+    const githubLink = 'https://github.com/KseniyaMelnik'
     const linkedinStyle = {
         backgroundImage: `url(${linkedin})`,
     };
+    const linkedinLink = 'https://www.linkedin.com/in/kseniya-m-784ab71b3/'
     const telegramStyle = {
         backgroundImage: `url(${telegram})`,
     };
+    const telegramLink = 'https://t.me/MurlocKsu'
 
 
     return (
@@ -29,10 +34,10 @@ function Footer() {
             <div className={`${styleContainer.container} ${style.container}`}>
                     <h2 className={style.title}>Kseniya Melnik</h2>
                 <div className={style.block}>
-                    <Social style={githubStyle}/>
-                    <Social style = {linkedinStyle}/>
-                    <Social style = {telegramStyle}/>
-                    <Social style = {codewarsStyle} />
+                    <Social link = {githubLink} style={githubStyle}/>
+                    <Social link = {linkedinLink} style = {linkedinStyle}/>
+                    <Social link = {telegramLink} style = {telegramStyle}/>
+                    <Social link = {codewarsLink} style = {codewarsStyle} />
                 </div>
                 <div >
                     <span className={style.copyright}> @2021 all rights reserved </span>
