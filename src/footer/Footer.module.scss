@@ -18,15 +18,6 @@
             min-width: 270px;
             display: flex;
             justify-content: space-between;
-            .social {
-                width: 50px;
-                height: 50px;
-                background-color: $textColor;
-                background-size: cover;
-                background-position: center;
-                cursor: pointer;
-                border-radius: 3px;
-            }
         }
         .copyright {
             @include text(18px, 1.2, 400, $textColor);

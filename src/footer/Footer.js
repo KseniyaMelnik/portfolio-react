@@ -5,6 +5,7 @@ import codewars from "../assets/image/codewars.svg";
 import github from "../assets/image/github.svg";
 import linkedin from "../assets/image/linkedin.svg";
 import telegram from "../assets/image/telegram.svg";
+import Social from "../common/components/social/Social";
 
 
 
@@ -28,10 +29,10 @@ function Footer() {
             <div className={`${styleContainer.container} ${style.container}`}>
                     <h2 className={style.title}>Kseniya Melnik</h2>
                 <div className={style.block}>
-                    <div style = {githubStyle} className={style.social}></div>
-                    <div style = {linkedinStyle} className={style.social}></div>
-                    <div style = {telegramStyle} className={style.social}></div>
-                    <div style = {codewarsStyle} className={style.social}></div>
+                    <Social style={githubStyle}/>
+                    <Social style = {linkedinStyle}/>
+                    <Social style = {telegramStyle}/>
+                    <Social style = {codewarsStyle} />
                 </div>
                 <div >
                     <span className={style.copyright}> @2021 all rights reserved </span>
