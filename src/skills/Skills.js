@@ -21,13 +21,13 @@ function Skills() {
     };
 
     return (
-        <div className={style.block}>
+        <div id={'skills'} className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={"My skills"}/>
                 <div className={style.skills}>
-                    <Skill style = {jsStyle} title='JS' description={"Здесь будет описание навыка"}/>
-                    <Skill style = {cssStyle} title='CSS' description={"Здесь будет описание навыка"}/>
-                    <Skill style = {reactStyle} title='REACT' description={"Здесь будет описание навыка"}/>
+                    <Skill style = {jsStyle} title='JS' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
+                    <Skill style = {cssStyle} title='CSS' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
+                    <Skill style = {reactStyle} title='REACT' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
                 </div>
             </div>
         </div>

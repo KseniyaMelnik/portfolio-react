@@ -9,7 +9,6 @@
     align-items: center;
     .container {
         width: 80%;
-        border: 1px solid;
         align-items: center;
         .title {
             @include text(24px, 1.2, 700, $titleColor);

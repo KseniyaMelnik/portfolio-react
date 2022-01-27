@@ -9,7 +9,7 @@ function Main() {
         backgroundImage: `url(${avatar})`,
     };
     return (
-        <div className={style.main}>
+        <div id={'main'} className={style.main}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.text}>
                     <span>Hi There</span>

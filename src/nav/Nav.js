@@ -4,10 +4,10 @@ import style from './Nav.module.scss';
 function Nav() {
     return (
         <div className={style.nav}>
-            <a href={''}>Home</a>
-            <a href={''}>Skills</a>
-            <a href={''}>Projects</a>
-            <a href={''}>Contact</a>
+            <a href={'#main'}>Home</a>
+            <a href={'#skills'}>Skills</a>
+            <a href={'#projects'}>Projects</a>
+            <a href={'#contact'}>Contact</a>
         </div>
     );
 }
