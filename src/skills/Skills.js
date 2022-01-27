@@ -6,6 +6,7 @@ import Title from "../common/components/title/Title";
 import jsIcon from "../assets/image/js-icon.svg";
 import cssIcon from "../assets/image/css-icon.svg";
 import reactIcon from "../assets/image/react-icon.svg";
+import reduxIcon from "../assets/image/redux.svg";
 
 
 
@@ -19,15 +20,18 @@ function Skills() {
     const reactStyle = {
         backgroundImage: `url(${reactIcon})`,
     };
-
+    const reduxStyle = {
+        backgroundImage: `url(${reduxIcon})`,
+    };
     return (
         <div id={'skills'} className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={"My skills"}/>
                 <div className={style.skills}>
-                    <Skill style = {jsStyle} title='JS' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
-                    <Skill style = {cssStyle} title='CSS' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
-                    <Skill style = {reactStyle} title='REACT' description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur dicta"}/>
+                    <Skill style = {jsStyle} title='JS' description={"Frontend development"}/>
+                    <Skill style = {cssStyle} title='CSS' description={"Styles"}/>
+                    <Skill style = {reactStyle} title='REACT' description={"UI development"}/>
+                    <Skill style = {reduxStyle} title='REDUX' description={"State management"}/>
                 </div>
             </div>
         </div>

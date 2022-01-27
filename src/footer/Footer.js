@@ -32,7 +32,7 @@ function Footer() {
     return (
         <div className={style.footer}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                    <p className={style.title}>Kseniya Melnik</p>
+                <a className={style.titleLink} href="#home"><p className={style.title}>Kseniya Melnik</p></a>
                 <div className={style.block}>
                     <Social link = {githubLink} style={githubStyle}/>
                     <Social link = {linkedinLink} style = {linkedinStyle}/>

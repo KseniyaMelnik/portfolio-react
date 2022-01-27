@@ -15,6 +15,7 @@
             background-color: $bgColor;
             border-radius: 5px;
             @include text(20px, 1.0, 400, $textColor);
+            text-transform: uppercase;
             .title {
                 @include text(26px, 1.2, 700, $titleColor);
             }

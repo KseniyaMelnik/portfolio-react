@@ -1,12 +1,17 @@
 @import './../common/styles/sass/mixins';
 
 .nav {
+    margin-right: 45px;
     width: 300px;
     display: flex;
     justify-content: space-between;
     a {
         text-decoration: none;
         @include text(17px, 1.0, 400, $textColor);
+        &:hover {
+            color: $titleColor;
+            transition: 7ms ease-in-out;
+        }
 
     }
 }
