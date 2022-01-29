@@ -10,6 +10,7 @@ import tsIcon from "../assets/image/typescript-icon.svg";
 import reactIcon from "../assets/image/react-icon.svg";
 import reduxIcon from "../assets/image/redux.svg";
 import axiosIcon from "../assets/image/axios-icon.svg";
+import materialIcon from "../assets/image/material-ui-icon.svg";
 
 
 
@@ -32,6 +33,12 @@ function Skills() {
     const reduxStyle = {
         backgroundImage: `url(${reduxIcon})`,
     };
+    const axiosStyle = {
+        backgroundImage: `url(${axiosIcon})`,
+    };
+    const materialStyle = {
+        backgroundImage: `url(${materialIcon})`,
+    };
 
 
     return (
@@ -45,6 +52,8 @@ function Skills() {
                     <Skill style = {tsStyle} title='TS' description={"Typing"}/>
                     <Skill style = {reactStyle} title='REACT' description={"UI development"}/>
                     <Skill style = {reduxStyle} title='REDUX' description={"State management"}/>
+                    <Skill style = {axiosStyle} title='AXIOS' description={"REST API"}/>
+                    <Skill style = {materialStyle} title='MATERIAL UI' description={"React components"}/>
                 </div>
             </div>
         </div>
