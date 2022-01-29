@@ -30,8 +30,8 @@ function Projects() {
                 <div className={style.projects}>
                     <Project style={socialStyle} title={"Social network"} description={"It's something description for the project"}/>
                     <Project style={todoStyle} title={"Todo list"} description={"It's something description for the project"}/>
-                    <Project style={wildStyle} title={"Wild life"} description={"It's something description for the project"}/>
-                    <Project style={drumStyle} title={"Drum kit"} description={"It's something description for the project"}/>
+                    <Project url={"https://rolling-scopes-school.github.io/kseniyamelnik-JSFE2021Q1/wildlife/"} style={wildStyle} title={"Wild life"} description={"It's something description for the project"}/>
+                    <Project url={"https://rolling-scopes-school.github.io/kseniyamelnik-JSFEPRESCHOOL/drum-kit/"}style={drumStyle} title={"Drum kit"} description={"It's something description for the project"}/>
 
                 </div>
             </div>

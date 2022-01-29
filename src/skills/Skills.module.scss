@@ -29,6 +29,10 @@
     align-items: center;
     padding: 20px;
     margin-bottom: 5px;
+    &:hover {
+        background-color: $primaryColor;
+        transition: 7ms ease-in-out;
+    }
     .card {
         .icon {
             background-size: contain;

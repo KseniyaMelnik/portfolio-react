@@ -1,8 +1,11 @@
 @import './../../styles/sass/variables';
+@import './../../styles/sass/mixins';
+
 
 .button {
 
   button {
+    @include text (18px, 30px, 400, $textColor);
     background-color: $primaryColor;
     padding: 10px 20px;
     position: relative;

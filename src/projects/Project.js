@@ -7,7 +7,7 @@ function Project(props) {
         <div className={style.project}>
             <div className={style.card}>
                 <div className={style.image} style={props.style}>
-                    <Button />
+                    <Button url={props.url} text={"Watch"}/>
                 </div>
             </div>
             <div className={style.projectInfo}>
