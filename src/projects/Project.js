@@ -1,14 +1,13 @@
 import React from "react";
 import style from './Projects.module.scss';
+import Button from "../common/components/buttons/Button";
 
 function Project(props) {
     return (
         <div className={style.project}>
             <div className={style.card}>
                 <div className={style.image} style={props.style}>
-                    <div className={style.btn}>
-                        <a>Watch</a>
-                    </div>
+                    <Button />
                 </div>
             </div>
             <div className={style.projectInfo}>

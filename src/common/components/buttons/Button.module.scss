@@ -1,0 +1,21 @@
+@import './../../styles/sass/variables';
+
+.button {
+
+  button {
+    background-color: $primaryColor;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    color: $titleColor;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+     &:hover {
+       background-color: $bgSecondColor;
+       transition: 7ms ease-in-out;
+
+     }
+  }
+}
