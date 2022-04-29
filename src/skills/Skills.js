@@ -11,6 +11,7 @@ import reactIcon from "../assets/image/react-icon.svg";
 import reduxIcon from "../assets/image/redux.svg";
 import axiosIcon from "../assets/image/axios-icon.svg";
 import materialIcon from "../assets/image/material-ui-icon.svg";
+import antIcon from "../assets/image/ant-design-icon.svg";
 
 
 
@@ -39,6 +40,9 @@ function Skills() {
     const materialStyle = {
         backgroundImage: `url(${materialIcon})`,
     };
+    const antStyle = {
+        backgroundImage: `url(${antIcon})`,
+    };
 
 
     return (
@@ -54,6 +58,7 @@ function Skills() {
                     <Skill style = {reduxStyle} title='REDUX' description={"State management"}/>
                     <Skill style = {axiosStyle} title='AXIOS' description={"REST API"}/>
                     <Skill style = {materialStyle} title='MATERIAL UI' description={"React components"}/>
+                    <Skill style = {antStyle} title='ANT DESIGN' description={"React components"}/>
                 </div>
             </div>
         </div>
